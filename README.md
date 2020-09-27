@@ -2,6 +2,8 @@ django/gunicorn/nginx clean template
 
 #### Initial setup:
 
+- copy wheels/ in django-clean-template
+
 `cd django-clean-template/systemd`
 
 - set up {user} and {group} in gunicorn.service
