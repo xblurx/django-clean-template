@@ -1,8 +1,14 @@
-Это чистый шаблон Django проекта, с которым можно быстро начать разработку. В шаблон входит конфиг Systemd, nginx, gunicorn.
+django/gunicorn/nginx clean template
 
-Установка представляет собой просто указание Python интерпретатора и названия домена, запустите:
+#### Initial setup:
 
-```bash
+`cd django-clean-template/systemd`
+
+- set up {user} and {group} in gunicorn.service
+- setup databases and add your app in `src/config/settings.py`
+
+- to run:
+```
 ./install.sh
 ```
 
